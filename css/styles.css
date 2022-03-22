@@ -76,7 +76,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("img/hero.jpg");
+    ,url("../img/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -184,7 +184,7 @@ button:hover {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("img/contacto.jpg");
+    ,url("../img/contacto.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -202,7 +202,7 @@ footer {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("img/footer.jpg");
+    ,url("../img/footer.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
