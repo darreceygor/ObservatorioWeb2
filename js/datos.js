@@ -16,8 +16,8 @@ async function traerDatos(){
                             <td>${datos[i].id}</td>
                             <td>${datos[i].name}</td>
                             <td class="visible" >${datos[i].direccion}</td>
-                            <td><a href="${datos[i].instagram}"><img class="icono" src="../ico/instagram.png"></a></td>
-                            <td><a href="${datos[i].facebook}"><img class="icono" src="../ico/facebook.png"></a></td>
+                            <td><a href="${datos[i].instagram}"><img class="icono" src="ico/instagram.png"></a></td>
+                            <td><a href="${datos[i].facebook}"><img class="icono" src="ico/facebook.png"></a></td>
                         </tr>
                 
                
