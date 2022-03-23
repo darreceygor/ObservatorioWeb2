@@ -11,6 +11,8 @@ html {
     height: 65px;
 }
 
+
+
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -168,12 +170,15 @@ header a:hover{
 }
 
 button {
-    
-    font-size: 1.2em;;
-    color:white;
+    font-size: 1.3em;;
     background-color: blueviolet;
     padding: 7px;
     border-radius: 5px;
+}
+
+button a{
+    text-decoration: none;
+    color:white;
 }
 
 button:hover {
@@ -253,9 +258,10 @@ footer h3 {
         padding: 4px 0 0 2px;
     }
 
-    #investigacion .containerFichas{
+    #investigacion .carta{
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
         
     .ficha {
