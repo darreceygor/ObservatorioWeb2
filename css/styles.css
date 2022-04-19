@@ -30,6 +30,10 @@ p:first-letter {
     font-size: 250%;
     color: blueviolet;
     float: left;
+    line-height: 85%;
+    padding-right: 4px;
+    padding-top: 4px;
+    margin-bottom: -10px;
 }
 
 .container {
