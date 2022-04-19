@@ -28,12 +28,14 @@ li{ font-size: 1.25em;}
 p:first-letter {
     font-weight: bold;
     font-size: 250%;
+    font-style: italic;
     color: rgb(55, 110, 141);
     float: left;
     line-height: 85%;
     padding-right: 4px;
     padding-top: 4px;
     margin-bottom: -10px;
+
 }
 
 .container {
@@ -247,6 +249,7 @@ label {
     display:block;
     margin-top:20px;
     letter-spacing:1px;
+    color: white;
 }
  
 .principal {
@@ -263,6 +266,7 @@ form {
 }
  
 input, textarea {
+    color: white;
     width:380px;
     height:27px;
     background:#666666;
@@ -275,6 +279,7 @@ input, textarea {
  
 textarea {
     height:150px;
+    margin-bottom: 50px;
 }
  
 #submit {
