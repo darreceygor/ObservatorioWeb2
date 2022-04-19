@@ -25,7 +25,7 @@ p{ font-size: 1.5em;}
 ul{ list-style: none;}
 li{ font-size: 1.25em;}
 
-p::first-letter {
+p:first-letter {
     font-weight: bold;
     font-size: 250%;
     color: blueviolet;
