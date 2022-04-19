@@ -28,7 +28,7 @@ li{ font-size: 1.25em;}
 p:first-letter {
     font-weight: bold;
     font-size: 250%;
-    color: blueviolet;
+    color: rgb(55, 110, 141);
     float: left;
     line-height: 85%;
     padding-right: 4px;
