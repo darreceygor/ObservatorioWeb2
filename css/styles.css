@@ -325,6 +325,12 @@ textarea {
         padding-right: 20px;
     }
 
+    .body_centrado {
+        height: 100%;
+        width: 100%;
+   
+    }
+
     #hero h1 {
         font-size: 5em;
         font-style: italic;
