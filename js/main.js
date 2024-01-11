@@ -15,7 +15,7 @@ async function datos(){
                     </div>
                     <h3>${datos[i].category}</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt vero corporis incidunt saepe qui commodi quasi neque veniam quam, aspernatur est beatae maxime animi sed reiciendis mollitia ducimus veritatis repellendus?</p>
-                    <!-- <button type="click" id="tipo" name="${datos[i].category}">+ Info</button> -->
+                    <button type="click" id="tipo" name="${datos[i].category}">+ Info</button>
                     
                 </div>
                 `
