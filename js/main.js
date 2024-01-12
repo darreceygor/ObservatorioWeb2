@@ -1,7 +1,7 @@
 window.onload = datos();
 
 async function datos(){
-    fetch('json/fichas.json') /*toma la direccion del arhivo json a tratar*/
+    fetch('json/categorias.json') /*toma la direccion del arhivo json a tratar*/
     .then(res => res.json()) /*traemos el archivo y lo transformamos a objeto json*/
     .then(datos =>{   /*traemos los datos para procesar*/
         let carta = document.getElementById("ficha");
@@ -14,7 +14,15 @@ async function datos(){
                         
                     </div>
                     <h3>${datos[i].category}</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt vero corporis incidunt saepe qui commodi quasi neque veniam quam, aspernatur est beatae maxime animi sed reiciendis mollitia ducimus veritatis repellendus?</p>
+                    <div style="text-align: left;">
+                    <strong>Actividades</strong>
+                    <br>${datos[i].activities}
+                    </div>
+                    <br>
+                    <div style="text-align: left;">
+                    <strong>Infraestructura</strong>
+                    <br>${datos[i].estructure}</div>
+
                     <!-- <button type="click" id="tipo" name="${datos[i].category}">+ Info</button> -->
                     
                 </div>

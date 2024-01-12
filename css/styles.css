@@ -383,7 +383,16 @@ textarea {
         border-radius:15px 15px 0 0 ;
 
     }
-    
+ 
+    .datos{
+       text-align: left;
+    }
+
+    #datos{
+        text-align: left;
+    }
+
+
     .carta p {
         display: none;
     }

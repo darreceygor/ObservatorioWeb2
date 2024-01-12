@@ -1,0 +1,59 @@
+[
+    {
+        "category": "Artes Escénicas",
+        "image": "img/escenicas.png",
+        "id": "1",
+        "activities":"Artes circenses, baile, danza, ballet, música, teatro",
+        "estructure":"Auditorios, circos, escuelas de danza, escuelas de música, teatros"
+    },
+    {
+        "category": "Artes Visuales",
+        "image": "img/visuales2.jpg",
+        "id": "2",
+        "activities":"Arte digital, artes plásticas, fotografía, graffiti, murales",
+        "estructure":"Escuelas, galerias, museos"
+    },
+    {
+        "category": "Diseño",
+        "image":"img/disenio.jpg",
+        "id": "3",
+        "activities":"Arquitectura, diseño de interiores, diseño de moda, diseño gráfico, joyería",
+        "estructure":"Talleres de manufactura, empresas de arquitectura y diseño"
+    },
+    {
+        "category": "Medios",
+        "image": "img/medios.jpg",
+        "id": "4",
+        "activities":"Cine, internet, prensa, publicidad, radio, televisión",
+        "estructure":"Agencias de publicidad, grupos de prensa, salas de cine, estudios"
+    },
+    {
+        "category": "Literatura",
+        "image": "img/literatura.jpg",
+        "id": "5",
+        "activities":"Novela, poesía, cuento, ensayo, exposiciones literarias, talleres",
+        "estructure":"Editoriales, Ferias, Librerías"
+    },
+    {
+        "category": "Patrimonio cultural",
+        "image": "img/patrimonio.jpg",
+        "id": "6",
+        "activities":"Artesanías, conservación, difusión, turismo cultural",
+        "estructure":" Archivos históricos, museos, sitios arqueológicos"
+    },
+    {
+        "category": "Innovación y Tecnología",
+        "image": "img/idi.jpg",
+        "id": "7",
+        "activities":"I+D+i tecnológica, videojuegos, startups, incubadoras",
+        "estructure":"Centros tecnológicos, empresas de sotware, fablabs"
+    },
+    {
+        "category": "Instituciones",
+        "image": "img/instituciones.jpg",
+        "id": "8",
+        "activities":"-",
+        "estructure":"Bibliotecas, centros culturales, museos, escuelas"
+    }
+    
+]
