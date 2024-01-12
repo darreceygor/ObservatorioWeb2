@@ -259,6 +259,25 @@ footer .iconos {
     margin:5vh;
 }
 
+div nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+div nav a img {
+    vertical-align: middle;
+    margin-right: 0.5vh;
+}
+
+
+.iconoNav {
+    width: 2.5vh;
+    height: 2.5vh;
+    margin-right: 0,5vh;
+}
+
 
 /***********************************/
 label {
