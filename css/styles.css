@@ -12,7 +12,6 @@ html {
 }
 
 
-
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -152,9 +151,14 @@ header a:hover{
     padding: 50px;
 }
 
+#convocatorias .container {
+    padding: 120px;
+}
+
 #investigacion h2,
 #nosotros h2,
-#contacto h2 {
+#contacto h2,
+#convocatorias h2 {
     margin:0;
     padding-bottom:25px ;
     text-align: center;
@@ -182,6 +186,7 @@ header a:hover{
     border-radius:15px 15px 0 0 ;
     object-fit: cover;
 }
+
 
 .carta p {
     display: none;
@@ -278,6 +283,69 @@ div nav a img {
     margin-right: 0,5vh;
 }
 
+/*********************************/
+/*  CONVOCATORIAS               **/
+/*********************************/
+
+.containerDetalles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.detalles {
+    width: 700px;
+    height: auto;
+    margin: 50px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.detalleImg {
+    width: 100%;
+    height: 350px;
+
+}
+
+.detalles h3 {
+    color:black;
+    border-radius: 0 0 15px 15px;
+    padding: 0 15px;
+}
+
+.detalles .bajada{
+    margin: -35px 0 0 0;
+    border-radius: 0 0 15px 15px;
+    padding: 10px;
+    background-color: rgb(245,245,245);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#convocatorias img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0 0 ;
+}
+
+
+
+
+
+
+
+
+/*
+          <div class="detalles">
+          <div class="detalleImg">
+            <img src="${datos[i].imagen}" />
+          </div>
+          <div>
+              <ol>
+                <li>${datos[i].titulo} -- ${datos[i].bajada} -- <strong>Mas datos en: </strong> <br>${datos[i].url}</div>
+              </ol>
+          </div>  `*/
+
 
 /***********************************/
 label {
@@ -371,19 +439,20 @@ textarea {
         margin: 25px 0;
         text-align: center;
     }
-    
-    .carta {
+
+    .carta, .fichaC {
         margin: -25px;
     }
-    
-    .carta img{
+
+   
+    .carta img {
         margin: 0;
         width: 100%;
         height: 150px;
         border-radius:15px 15px 0 0 ;
 
     }
- 
+
     .datos{
        text-align: left;
     }
