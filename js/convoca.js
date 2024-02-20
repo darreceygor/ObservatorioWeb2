@@ -16,7 +16,7 @@ async function convoca(){
           <div class="detalleData">
             <h3>${datos[i].titulo}</h3><br>
             <div class="bajada">${datos[i].bajada}
-            <br>
+            <br><br>
             <strong>Mas datos en: </strong>
             <br>
             <a href ="${datos[i].link}">${datos[i].link}</a>
