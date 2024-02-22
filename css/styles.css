@@ -313,6 +313,7 @@ div nav a img {
 .detalleData h3 {
     font-size: 2vh;
     padding: 0 0.5vh 0 1vh;
+    margin: 1.5vh 0 3vh 0;
     display: -webkit-box; /* para compatibilidad con navegadores basados en WebKit */
     -webkit-line-clamp: 4; /* número máximo de líneas a mostrar */
     -webkit-box-orient: vertical; /* orientación del contenido */
@@ -325,12 +326,13 @@ div nav a img {
     text-decoration: none;
 }
 
-.detalles .bajada{
+.bajada{
     margin-top:-3vh ;
     width: 100%;
     height: auto;
-    border-radius: 0 0 15px 15px;
-    padding: 0 1vh 0 1vh;
+    padding: 1.5vh 0 0 1.5vh;
+    margin-bottom:1.5vh;
+
     background-color: rgb(245,245,245);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5vh;
@@ -348,7 +350,7 @@ div nav a img {
     border-radius: 15px 15px 0 0 ;
 }
 .fecha {
-    padding: 1.5vh 0 0 1vh;
+    padding: 0 0 0 1vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5vh;
     margin: 0 0 2vh 0;
