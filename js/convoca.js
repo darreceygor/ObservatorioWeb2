@@ -6,22 +6,32 @@ async function convoca(){
   .then(datos =>{   /*traemos los datos para procesar*/
       let detalle = document.getElementById("fichaConvoca");
 
+      
+
       for (let i in datos) {
+
+        let anio = datos[i].fecha_fin[0]+datos[i].fecha_fin[1]+datos[i].fecha_fin[2]+datos[i].fecha_fin[3]          
+        let mes = datos[i].fecha_fin[5]+datos[i].fecha_fin[6]
+        let dia = datos[i].fecha_fin[8]+datos[i].fecha_fin[9]
+
+        let fecha = dia + "/" + mes + "/" + anio
+
           detalle.innerHTML +=`
           <div class="detalles">
-          <div class="detalleImg">
-            <img src="${datos[i].imagen}" />
-          </div>
-          <div>
-          <div class="detalleData">
-            <h3>${datos[i].titulo}</h3><br>
-            <div class="bajada">${datos[i].bajada}
-            <br><br>
-            <strong>Mas datos en: </strong>
-            <br>
-            <a href ="${datos[i].link}">${datos[i].link}</a>
-          </div>
-          </div>  `
+
+            <div class="detalleImg">
+              <img src="${datos[i].imagen}" />
+            </div>
+
+            <div class="detalleData">
+              <h3><a href ="${datos[i].link}">${datos[i].titulo}</a></h3><br>
+              <div class="bajada">${datos[i].bajada}</div>
+              <div class="fecha">
+              <hr>
+              <strong>Fecha límite: </strong>${fecha} </div>
+            </div>
+          </div>    `
+
       }  
   })
 }

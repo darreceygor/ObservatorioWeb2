@@ -155,6 +155,12 @@ header a:hover{
     padding: 120px;
 }
 
+#convocatorias .cartaConvoca {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 #investigacion h2,
 #nosotros h2,
 #contacto h2,
@@ -290,37 +296,66 @@ div nav a img {
 
 
 .detalles {
-    width: 700px;
+    width: 250px;
     height: auto;
-    margin: 50px;
     border: 1px solid black;
     border-radius: 15px;
+    margin: 0 0 3vh 0;
+
 }
 
 .detalleImg{
     width: 100%;
-    height: 40vh;
-    border-radius: 15px 0 0 0;
+    height: 20vh;
+    border-radius: 15px;
 }
 
-.detalles h3 {
-    color:black;
-    padding: 0 15px;
+.detalleData h3 {
+    font-size: 2vh;
+    padding: 0 0.5vh 0 1vh;
+    display: -webkit-box; /* para compatibilidad con navegadores basados en WebKit */
+    -webkit-line-clamp: 4; /* número máximo de líneas a mostrar */
+    -webkit-box-orient: vertical; /* orientación del contenido */
+    overflow: hidden; /* oculta el texto que se desborda del contenedor */
+    text-overflow: ellipsis; /* agrega puntos suspensivos al final del texto truncado */
+}
+
+.detalleData h3 a{
+    color:rgb(4, 8, 66);    
+    text-decoration: none;
 }
 
 .detalles .bajada{
-    margin: -35px 0 0 0;
+    margin-top:-3vh ;
+    width: 100%;
+    height: auto;
     border-radius: 0 0 15px 15px;
-    padding: 10px;
+    padding: 0 1vh 0 1vh;
     background-color: rgb(245,245,245);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5vh;
+    /*truncar texto excedente*/
+    display: -webkit-box; /* para compatibilidad con navegadores basados en WebKit */
+    -webkit-line-clamp: 4; /* número máximo de líneas a mostrar */
+    -webkit-box-orient: vertical; /* orientación del contenido */
+    overflow: hidden; /* oculta el texto que se desborda del contenedor */
+    text-overflow: ellipsis; /* agrega puntos suspensivos al final del texto truncado */
 }
 
 #convocatorias img {
     width: 100%;
     height: 100%;
-    border-radius: 0 15px 0 0 ;
+    border-radius: 15px 15px 0 0 ;
 }
+.fecha {
+    padding: 1.5vh 0 0 1vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5vh;
+    margin: 0 0 2vh 0;
+}
+
+
+  
 
 @media (max-width: 850px){
 
@@ -330,8 +365,9 @@ div nav a img {
     }
 
     #convocatorias .container h2{
-        font-size: 30px;
+        font-size: 2vh;
         margin-left: -75px;
+
     }
 
     .containerDetalles {
