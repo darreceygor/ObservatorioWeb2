@@ -1,5 +1,36 @@
 [
 
+ {
+            "id": 00001,
+            "url":"",
+            "link":"https://qrcd.org/4VJB",
+            "titulo": "CONABIP - Preinscripción al Programa Libro% 2024",
+            "bajada": "Las bibliotecas populares reconocidas por la Conabip podrán preinscribirse para tramitar el subsidio a partir del martes 27 de febrero. 
+ 
+Mediante este Programa las bibliotecas populares adquieren material bibliográfico para sus comunidades lectoras, con un 50 % de descuento sobre el precio de venta al público.",
+            "estado": "abierta",
+            "fecha_inicio": "",
+            "fecha_fin": "",
+            "documentos": []
+        },
+
+{
+            "id": 00002,
+            "url":"",
+            "link":"https://qrcd.org/4Vu7",
+            "titulo": " Solicitud de Subsidio para Gastos Corrientes 2024",
+            "bajada": "Ya está disponible el trámite para realizar la solicitud del subsidio para Gastos Corrientes 2024 para bibliotecas populares registradas en la Conabip.
+ 
+Mediante este subsidio se destinan fondos para los gastos de funcionamiento habituales de las bibliotecas populares. El otorgamiento es anual, no posee fecha límite para la adhesión y se aplica a las bibliotecas de todo el país.
+ 
+Las bibliotecas que realizaron la solicitud de subsidio no deberán volver a completarla.",
+            "estado": "abierta",
+            "fecha_inicio": "",
+            "fecha_fin": "",
+            "documentos": []
+        },
+
+
         {
             "id": 13819,
             "url": "https://www.cultura.gob.ar/api/v2.0/convocatorias/13819/",
