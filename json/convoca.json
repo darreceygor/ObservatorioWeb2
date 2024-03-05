@@ -1,5 +1,18 @@
 [
 
+        { "id": 14022,
+            "url": "",
+            "link": "https://rojofestivalindependiente.contactin.bio/",
+            "imagen": "../img/1 - clowns.jpg",
+            "titulo": "Abre la convocatoria para la tercera edición de ROJO, Festival Independiente Internacional de Clown en Buenos Aires",
+            "bajada": "Rojo - Festival Independiente Internacional de Clown convoca a grupos, elencos y artistas nacionales e internacionales del género a participar de su tercera edición que se llevará a cabo del 21 al 30 de junio de 2024 en Ciudad Autónoma de Buenos Aires.",
+            "cuerpo": "",
+            "estado": "abierta",
+            "fecha_inicio": "",
+            "fecha_fin": "2024-03-22",
+            "documentos": []
+        },
+
         { "id": 14021,
             "url": "https://www.cultura.gob.ar/api/v2.0/convocatorias/14020/",
             "link": "https://fundacionbotin.org/becas-convocatorias/becas-de-artes-plasticas/",
