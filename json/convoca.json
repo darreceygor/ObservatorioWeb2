@@ -1,4 +1,17 @@
 [
+
+        { "id": 10020,
+            "url": "https://www.cultura.gob.ar/api/v2.0/convocatorias/14020/",
+            "link": "https://fundacionbotin.org/becas-convocatorias/becas-de-artes-plasticas/",
+            "imagen": "https://fundacionbotin.org/",
+            "titulo": "Becas de arte - Fundación Botín",
+            "bajada": "La Fundación Botín tiene como misión contribuir al desarrollo integral de la sociedad, explorando nuevas formas de detectar talento creativo y apostar por él para generar riqueza cultural, social y económica. En el ámbito artístico, y con este objetivo muy presente, desde la década de los noventa concede ayudas a artistas plásticos para que puedan desarrollar sus proyectos artísticos.",
+            "cuerpo": "",
+            "estado": "abierta",
+            "fecha_inicio": "",
+            "fecha_fin": "2024-05-05",
+            "documentos": []
+         
          {
             "id": 14020,
             "url": "https://www.cultura.gob.ar/api/v2.0/convocatorias/14020/",
