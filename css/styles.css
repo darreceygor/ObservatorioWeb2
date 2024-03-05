@@ -11,6 +11,11 @@ html {
     height: 65px;
 }
 
+td img {
+    width: 25px;
+    height: 25px;
+}
+
 
 body{
     font-family: 'Roboto', sans-serif;
